@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ CỬA HÀNG CƠ SỞ VẬT CHẤT"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnManageFacilitys"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý cơ sở vật chất"
+        android:backgroundTint="@color/gray"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnManageOrders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/gray"
+        android:textStyle="bold"
+        android:text="Quản lý Đơn hàng"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnStatistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/gray"
+        android:textStyle="bold"
+        android:text="Thống kê"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnCreateOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/gray"
+        android:textStyle="bold"
+        android:text="Tạo đơn hàng"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnDeleteFacility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/gray"
+        android:textStyle="bold"
+        android:text="Xóa cơ sở vật chất"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#EB5757"
+        android:text="Đăng xuất"
+        android:textStyle="bold" />
+
+</LinearLayout>
